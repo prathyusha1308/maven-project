@@ -1,4 +1,5 @@
 package com.example;
+package info.java file.
 
 /**
  * This is a class.
@@ -11,9 +12,12 @@ public class Greeter {
   public Greeter() {
 
   }
+/*
+ * @someone-name of the person
+ */
 
-  //TODO: Add javadoc comment
-  public String greet(String someone) {
+  
+  public String final greet(String final someone) {
     return String.format("Hello, %s!", someone);
   }
 }
